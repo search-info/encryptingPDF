@@ -29,7 +29,7 @@ def encrypt(filename, password="password"):
 
     in_file.close()
 
-    #gui.msgbox(f"Your file is encrypted and is named: {new_filename}, however you must properly dispose of the old unencrypted file. Recommendation is to use file shredders", 'Encryption Done!')
+    gui.msgbox(f"Your file is encrypted and is named: {new_filename}, however you must properly dispose of the old unencrypted file. Recommendation is to use file shredders", 'Encryption Done!')
 
 def main():
 
